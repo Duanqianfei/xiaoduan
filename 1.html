@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>网页</title>
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("img").click(function(){
+    $("#toggle").fadeOut();
+  });
+});
+</script>
+
+<script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
+</head>
+
+
+<body>
+	<div id="toggle"><img src="xia.jpg"></div>
+ 
+
+<div id="accordion">
+  <h3>什么是 jQuery ？</h3>
+  <div>
+    <p>
+   jQuery是一个JavaScript函数库。
+jQuery是一个轻量级的"写的少，做的多"的JavaScript库。
+    </p>
+  </div>
+  <h3>为什么使用 jQuery ？</h3>
+  <div>
+    <p>
+    目前网络上有大量开源的 JS 框架, 但是 jQuery 是目前最流行的 JS 框架，而且提供了大量的扩展。
+很多大公司都在使用 jQuery， 例如:
+Google
+Microsoft
+IBM
+Netflix
+    </p>
+  </div>
+  <h3>jQuery 语法</h3>
+  <div>
+    <p>
+    jQuery 语法是通过选取 HTML 元素，并对选取的元素执行某些操作。
+基础语法： $(selector).action()
+美元符号定义 jQuery
+选择符（selector）"查询"和"查找" HTML 元素
+jQuery 的 action() 执行对元素的操作
+    </p>
+  </div>
+  <h3>jQuery 选择器</h3>
+  <div>
+    <p>
+    jQuery 选择器允许您对 HTML 元素组或单个元素进行操作。
+jQuery 选择器基于元素的 id、类、类型、属性、属性值等"查找"（或选择）HTML 元素。 它基于已经存在的 CSS 选择器，除此之外，它还有一些自定义的选择器。
+jQuery 中所有选择器都以美元符号开头：$()。
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
